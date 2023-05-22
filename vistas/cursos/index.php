@@ -11,7 +11,7 @@
     <div class="container">
         <h1 class="text-center">Registro de cursos inpartidos <br> II Curso de Informatica y Ciberdefensa</h1>
         <div class="row justify-content-center">
-            <form action="/crud/controladores/cursos/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
+            <form action="/parcial/controladores/cursos/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
                     <div class="col">
                         <label for="cursos_nombre">Nombre del cursos</label>
@@ -20,7 +20,7 @@
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="cursos_cantidad_per">cantidad de periodos </label>
+                        <label for="cursos_cantidad_per">Cantidad de periodos </label>
                         <input type="number" name="cursos_cantidad_per" id="cursos_cantidad_per" class="form-control">
                     </div>
                 </div>
