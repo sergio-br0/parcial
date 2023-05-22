@@ -27,7 +27,7 @@ try {
             <div class="col-lg-6">
                 <?php if($resultado): ?>
                     <div class="alert alert-success" role="alert">
-                        Guardado exitosamente!
+                        Informacion guardada exitosamente!
                     </div>
                 <?php else :?>
                     <div class="alert alert-danger" role="alert">
