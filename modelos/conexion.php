@@ -9,7 +9,6 @@ class cursos extends Conexion{
     public $cursos_instructor;
     public $cursos_creditos;
 
-
     public function __construct($args = [] )
     {
         $this->cursos_id = $args['cursos_id'] ?? null;
